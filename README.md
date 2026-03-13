@@ -1,5 +1,4 @@
-## Magic File Scanner
-
+## FileTypeID-Toll
 Detects the TRUE file type of any file using magic number analysis.
 Flags disguised malware — e.g. a Windows EXE renamed as vacation_photo.jpeg.
 
@@ -17,22 +16,22 @@ regardless of what the file extension claims.
 
 **Run the built-in demo:**
 ```bash
-python magic_file_scanner_ui.py --demo
+python filetypeid-tool.py --demo
 ```
 
 **Scan a single file:**
 ```bash
-python magic_file_scanner_ui.py suspicious.jpeg
+python filetypeid-tool.py suspicious.jpeg
 ```
 
 **Scan a folder:**
 ```bash
-python magic_file_scanner_ui.py "<path>"
+python filetypeid-tool.py "<path>"
 ```
 
 **Scan with verbose mode:**
 ```bash
-python magic_file_scanner_ui.py "<path>" -v
+python filetypeid-tool.py "<path>" -v
 ```
 
 ## Example Output
