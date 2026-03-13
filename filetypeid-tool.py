@@ -419,14 +419,14 @@ def create_demo_files():
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Magic File Scanner — ASCII Terminal UI",
+        description="File Type ID - Tool : Magic File Scanner",
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:
-  python magic_file_scanner_ui.py suspicious.jpeg
-  python magic_file_scanner_ui.py /path/to/folder
-  python magic_file_scanner_ui.py /path/to/folder -v
-  python magic_file_scanner_ui.py --demo
+  python filetypeid-tool.py suspicious.jpeg
+  python filetypeid-tool.py /path/to/folder
+  python filetypeid-tool.py /path/to/folder -v
+  python filetypeid-tool.py --demo
         """
     )
     parser.add_argument("target",    nargs="?",          help="File or directory to scan")
