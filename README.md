@@ -1,4 +1,4 @@
-## FileTypeID-Toll
+## FileTypeID-Tool
 Detects the TRUE file type of any file using magic number analysis.
 Flags disguised malware — e.g. a Windows EXE renamed as vacation_photo.jpeg.
 
