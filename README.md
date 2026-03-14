@@ -17,35 +17,35 @@ regardless of what the file extension claims.
 ## Run Java version
 ### Compile
 ```bash
-javac MagicFileScanner.java
+javac filetypeid_tool_java.java
 ```
 
 ### Run
 
 **Built-in demo (creates test files including disguised ones):**
 ```bash
-java MagicFileScanner --demo
+java filetypeid_tool_java --demo
 ```
 
 **Scan a single file:**
 ```bash
-java MagicFileScanner suspicious.jpeg
+java filetypeid_tool_java suspicious.jpeg
 ```
 
 **Scan an entire folder:**
 ```bash
-java MagicFileScanner path/to/folder
+java filetypeid_tool_java path/to/folder
 ```
 
 **Verbose mode (shows raw hex header bytes):**
 ```bash
-java MagicFileScanner path/to/folder -v
+java filetypeid_tool_java path/to/folder -v
 ```
 
 ### Windows Path Examples
 ```bash
-java MagicFileScanner "<path>"
-java MagicFileScanner "<path>"
+java filetypeid_tool_java "<path>"
+java filetypeid_tool_java "<path>"
 ```
 
 ## Run Python version
