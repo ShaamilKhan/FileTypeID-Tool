@@ -14,6 +14,41 @@ regardless of what the file extension claims.
 - ASCII terminal UI with live scan animation
 - Scan a single file or an entire folder recursively
 
+## Run Java version
+### Compile
+```bash
+javac MagicFileScanner.java
+```
+
+### Run
+
+**Built-in demo (creates test files including disguised ones):**
+```bash
+java MagicFileScanner --demo
+```
+
+**Scan a single file:**
+```bash
+java MagicFileScanner suspicious.jpeg
+```
+
+**Scan an entire folder:**
+```bash
+java MagicFileScanner path/to/folder
+```
+
+**Verbose mode (shows raw hex header bytes):**
+```bash
+java MagicFileScanner path/to/folder -v
+```
+
+### Windows Path Examples
+```bash
+java MagicFileScanner "<path>"
+java MagicFileScanner "<path>"
+```
+
+## Run Python version
 **Run the built-in demo:**
 ```bash
 python filetypeid-tool.py --demo
@@ -64,6 +99,7 @@ Detected | ELF (Linux binary)
 
 ## Requirements
 - Python 3.10+ (no external libraries needed)
+- Java 17 or above (no external libraries needed)
 
 ## Author
 Shaamil Khan A
